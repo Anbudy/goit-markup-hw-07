@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Портфолио</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+  <body class="body" data-page>
+    <!-- Header -->
+    <header class="header" data-header>
+      <div class="header-container container">
+        <a href="" class="logo link"
+          ><span class="logo-accent">Web</span><span class="logo-dark">Studio</span></a
+        >
+        <nav class="header-nav">
+          <ul class="header-nav-list list">
+            <li>
+              <a class="header-link link" href="index.html">Студия</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-link-current link" href="portfolio.html">Портфолио</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-link link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-addr list">
+          <li>
+            <a href="mailto:info@devstudio.com" class="header-addr-link header-link link">
+              <svg width="16" height="12">
+                <use href="./images/icons.svg#envelope"></use>
+              </svg>
+              info@devstudio.com
+            </a>
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="header-addr-link header-link link">
+              <svg class="contact-icon" width="10" height="16">
+                <use href="./images/icons.svg#smartphone"></use>
+              </svg>
+              +38 096 111 11 11
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="portf sect-padd-vert">
+        <div class="container">
+          <!-- Filters -->
+          <ul class="filter-list list">
+            <li>
+              <button type="button" class="filter-btn-current filter-btn">Все</button>
+            </li>
+            <li>
+              <button type="button" class="filter-btn">Веб-сайты</button>
+            </li>
+            <li>
+              <button type="button" class="filter-btn">Приложения</button>
+            </li>
+            <li>
+              <button type="button" class="filter-btn">Дизайн</button>
+            </li>
+            <li>
+              <button type="button" class="filter-btn">Маркетинг</button>
+            </li>
+          </ul>
+          <!-- Portfolio -->
+          <ul class="portf-list list">
+            <li class="portf-item">
+              <a href="" class="portf-link link">
+                <div class="portf-img">
+                  <img
+                    class="image"
+                    src="images/technokriak.jpeg"
+                    alt="Технокряк"
+                    width="370px"
+                    height="294px"
+                  />
+                  <div class="overlay">
+                    <p class="overlay-text">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
+                      Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
+                      приватну особу.
+                    </p>
+                  </div>
+                </div>
+                <div class="portf-subitem">
+                  <h3 class="portf-subitem-head">Технокряк</h3>
+                  <p class="portf-subitem-txt">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="portf-item">
+              <a href="" class="portf-link link">
+                <div class="portf-img">
+                  <img
+                    class="image"
+                    src="images/poster.jpeg"
+                    alt="Постер New Orlean vs Golden Star"
+                    width="370px"
+                    height="294px"
+                  />
+                  <div class="overlay">
+                    <p class="overlay-text">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, ratione!
+                    </p>
+                  </div>
+                </div>
+                <div class="portf-subitem">
+                  <h3 class="portf-subitem-head">Постер New Orlean vs Golden Star</h3>
+                  <p class="portf-subitem-txt">Дизайнеp</p>
+                </div>
+              </a>
+            </li>
+            <li class="portf-item">
+              <a href="" class="portf-link link">
+                <div class="portf-img">
+                  <img
+                    class="image"
+                    src="images/seafood.jpeg"
+                    alt="Ресторан Seafood"
+                    width="370px"
+                    height="294px"
+                  />
+                  <div class="overlay">
+                    <p class="overlay-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, quam
+                      tempore! Incidunt sequi voluptate nam, aperiam exercitationem itaque
+                      praesentium voluptatum!
+                    </p>
+                  </div>
+                </div>
+                <div class="portf-subitem">
+                  <h3 class="portf-subitem-head">Ресторан Seafood</h3>
+                  <p class="portf-subitem-txt">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="portf-item">
+              <a href="" class="portf-link link">
+                <div class="portf-img">
+                  <img
+                    class="image"
+                    src="images/prime.jpeg"
+                    alt="Проект Prime"
+                    width="370px"
+                    height="294px"
+                  />
+                  <div class="overlay">
+                    <p class="overlay-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique excepturi
+                      cupiditate asperiores. Eligendi, cumque alias.
+                    </p>
+                  </div>
+                </div>
+                <div class="portf-subitem">
+                  <h3 class="portf-subitem-head">Проект Prime</h3>
+                  <p class="portf-subitem-txt">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="portf-item">
+              <a href="" class="portf-link link">
+                <div class="portf-img">
+                  <img
+                    class="image"
+                    src="images/boxes.jpeg"
+                    alt="Проект Boxes"
+                    width="370px"
+                    height="294px"
+                  />
+                  <div class="overlay">
+                    <p class="overlay-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae saepe fuga modi
+                      dolore laudantium voluptatibus soluta quia.
+                    </p>
+                  </div>
+                </div>
+                <div class="portf-subitem">
+                  <h3 class="portf-subitem-head">Проект Boxes</h3>
+                  <p class="portf-subitem-txt">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="portf-item">
+              <a href="" class="portf-link link">
+                <div class="portf-img">
+                  <img
+                    class="image"
+                    src="images/inspiration-has-no-borders.jpeg"
+                    alt="Inspiration has no Borders"
+                    width="370px"
+                    height="294px"
+                  />
+                  <div class="overlay">
+                    <p class="overlay-text">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi ad harum
+                      quia suscipit fuga.
+                    </p>
+                  </div>
+                </div>
+                <div class="portf-subitem">
+                  <h3 class="portf-subitem-head">Inspiration has no Borders</h3>
+                  <p class="portf-subitem-txt">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="portf-item">
+              <a href="" class="portf-link link">
+                <div class="portf-img">
+                  <img
+                    class="image"
+                    src="images/limited-edition.jpeg"
+                    alt="Издание Limited Edition"
+                    width="370px"
+                    height="294px"
+                  />
+                  <div class="overlay">
+                    <p class="overlay-text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio laudantium
+                      culpa aliquam fuga dolorem dolore! Possimus, tempora?
+                    </p>
+                  </div>
+                </div>
+                <div class="portf-subitem">
+                  <h3 class="portf-subitem-head">Издание Limited Edition</h3>
+                  <p class="portf-subitem-txt">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="portf-item">
+              <a href="" class="portf-link link">
+                <div class="portf-img">
+                  <img
+                    class="image"
+                    src="images/lab.jpeg"
+                    alt="Проект LAB"
+                    width="370px"
+                    height="294px"
+                  />
+                  <div class="overlay">
+                    <p class="overlay-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium saepe
+                      nemo, suscipit numquam molestiae reiciendis perspiciatis aliquam
+                      necessitatibus unde cum.
+                    </p>
+                  </div>
+                </div>
+                <div class="portf-subitem">
+                  <h3 class="portf-subitem-head">Проект LAB</h3>
+                  <p class="portf-subitem-txt">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="portf-item">
+              <a href="" class="portf-link link">
+                <div class="portf-img">
+                  <img
+                    class="image"
+                    src="images/growing-business.jpeg"
+                    alt="Growing Business"
+                    width="370px"
+                    height="294px"
+                  />
+                  <div class="overlay">
+                    <p class="overlay-text"></p>
+                  </div>
+                </div>
+                <div class="portf-subitem">
+                  <h3 class="portf-subitem-head">Growing Busines</h3>
+                  <p class="portf-subitem-txt">Приложение</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="foot">
+      <div class="footer container">
+        <div>
+          <a href="" class="logo link"
+            ><span class="logo-accent">Web</span><span class="logo-light">Studio</span></a
+          >
+          <address class="addr-cont">
+            <ul class="foot-addr-list list">
+              <li class="foot-addr-txt">г. Киев, пр-т Леси Украинки, 26</li>
+              <li>
+                <a href="mailto:info@devstudio.com" class="footer-link foot-addr-txt link"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a href="tel:+380961111111" class="footer-link foot-addr-txt link"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-group">
+          <h3 class="foot-head-txt">Приєднуйтесь</h3>
+          <ul class="social-list list">
+            <li class="social-item">
+              <a
+                href=""
+                class="foot-social-link link"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="instagram"
+              >
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a
+                href=""
+                class="foot-social-link link"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="twitter"
+                ><svg width="20" height="20">
+                  <use href="./images/icons.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a
+                href=""
+                class="foot-social-link link"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="facebook"
+                ><svg width="20" height="20">
+                  <use href="./images/icons.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a
+                href=""
+                class="foot-social-link link"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="linkedin"
+                ><svg width="20" height="20">
+                  <use href="./images/icons.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-group">
+          <h3 class="foot-head-txt">Підпищіться на розсилку</h3>
+          <form name="subscription" class="subscription-form" autocomplete="off" action="">
+            <label>
+              <input type="email" class="foot-form-input" name="lead-email" placeholder="Email" />
+            </label>
+            <button class="subscription-form-btn btn" type="submit">
+              Підписатися
+              <svg class="modal-btn-icon" width="24" height="24">
+                <use href="./images/icons.svg#send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/header-scroll.js"></script>
+    <script src="./js/modal.js"></script>
+  </body>
+</html>
