@@ -153,16 +153,16 @@ body {
   color: var(--col-000000);
 }
 
-.header-nav {
+.nav {
   margin-right: auto;
 }
 
-.header-nav-list {
+.nav__list {
   display: flex;
   gap: 50px;
 }
 
-.header-link {
+.nav__link {
   font-weight: 500;
   line-height: calc(16 / 12);
   letter-spacing: 0.02em;
@@ -173,12 +173,12 @@ body {
   transition: color var(--anim-default);
 }
 
-.header-link:hover,
-.header-link:focus {
+.nav__link:hover,
+.nav__link:focus {
   color: var(--col-accent);
 }
 
-.header-link-current {
+.nav__link--current {
   position: relative;
   font-weight: 500;
   line-height: calc(16 / 12);
@@ -189,7 +189,7 @@ body {
   padding-bottom: 32px;
 }
 
-.header-link-current::after {
+.nav__link--current::after {
   content: '';
   position: absolute;
   bottom: 0;
